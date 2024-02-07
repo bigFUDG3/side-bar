@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000; 
+}
+
+nav {
+    position: absolute;
+    margin: 0 0 0 0px;
+    height: 100%;
+    background-color: #242424;
+    width: 85px;
+    overflow: hidden;
+    transition:all 0.4s ease;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px;
+    
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logo span {
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    top: 14px;
+}
+
+a {
+    display: flex;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    width: 300px;
+    padding: 10px;
+
+}
+
+a .bx {
+    color: #d8d8d8;
+}
+
+i {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    overflow-x: hidden;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #383838;
+    width: 280px;
+}
+
+nav:hover {
+    width: 280px;
+    transition: all 0.5 ease;
+}
+
+.login {
+    position: absolute;
+    bottom: 0;
+}
